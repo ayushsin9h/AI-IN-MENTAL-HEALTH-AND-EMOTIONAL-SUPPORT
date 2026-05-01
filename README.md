@@ -57,8 +57,10 @@ This application was engineered to run locally to ensure 100% demo stability aga
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/The-Empathetic-Buddy.git](https://github.com/yourusername/The-Empathetic-Buddy.git)
-   cd The-Empathetic-Buddy
+   git clone https://github.com/ayushsin9h/AI-IN-MENTAL-HEALTH-AND-EMOTIONAL-SUPPORT.git
+   cd AI-IN-MENTAL-HEALTH-AND-EMOTIONAL-SUPPORT
+   cd EMPATHETIC-BUDDY
+   pip install -r requirements.txt
 
 ---
 
