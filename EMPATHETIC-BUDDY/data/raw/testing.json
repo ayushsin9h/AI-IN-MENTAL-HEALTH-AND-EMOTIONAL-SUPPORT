@@ -1,0 +1,16 @@
+{
+  "user_msg1": "I lost something today that I don’t think I’ll ever get back.",
+  "AI_msg1": "Losing something can be a significant setback. It sounds like this loss has triggered a sense of finality for you. What's the emotional weight of 'ever' in your statement - what does it say about your expectations for recovery or replacement?",
+  
+  "user_msg2": "It was my journal. Years of thoughts… everything I never told anyone.",
+  "AI_msg2": "The journal was a private space where you recorded your innermost thoughts. Losing it can feel like losing a part of yourself. This loss is particularly significant because you've been carrying those thoughts for years, and now they're gone. What's the thought that's been most painful to lose in your journal?",
+  
+  "user_msg3": "Yeah… it feels like those memories are just gone now.",
+  "AI_msg3": "Those memories are deeply tied to your journal, which was a private space where you recorded your innermost thoughts. It's as if losing the journal has erased a part of your past. What's the sense of impermanence that's most concerning to you - that the memories are gone, or that you've lost the record of them?",
+  
+  "user_msg4": "I keep thinking I should’ve been more careful. This is my fault.",
+  "AI_msg4": "Noticing a pattern of self-blame, you're holding yourself responsible for the loss of your journal. This self-criticism can be overwhelming. What's the specific aspect of losing control that you feel you've failed at?",
+  
+  "user_msg5": "It had things from a really bad phase of my life… stuff I survived.",
+  "AI_msg5": "It sounds like those memories and experiences hold significant emotional weight for you. The fact that they're tied to a difficult time in your life might make their loss feel particularly poignant. What's the purpose of holding onto these memories and experiences, even if they're painful - is it to honor your resilience or to learn from the past?"
+}

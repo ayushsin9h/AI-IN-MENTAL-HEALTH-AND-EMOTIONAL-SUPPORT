@@ -45,9 +45,13 @@ Standard Retrieval-Augmented Generation (RAG) systems fail in mental health and 
 
 This application was engineered to run locally to ensure 100% demo stability against network drops, requiring internet only for the lightweight Groq API text payloads.
 
+---
+
 ### Prerequisites
 * Python 3.9+
 * A free [Groq API Key](https://console.groq.com/)
+
+---
 
 ### Installation Steps
 
@@ -55,3 +59,30 @@ This application was engineered to run locally to ensure 100% demo stability aga
    ```bash
    git clone [https://github.com/yourusername/The-Empathetic-Buddy.git](https://github.com/yourusername/The-Empathetic-Buddy.git)
    cd The-Empathetic-Buddy
+
+---
+
+## ⚖️ Legal Disclaimer
+*This project was developed strictly for demonstration and hackathon purposes. The Empathetic Buddy is an experimental AI architecture and is **not** a substitute for professional medical advice, diagnosis, or psychiatric treatment. In case of a real mental health emergency, please contact local emergency services immediately.*
+
+---
+
+## 📂 Production MLOps Architecture
+```text
+EMPATHETIC-BUDDY/
+├── data/
+│   ├── raw/                  # Clinical frameworks and knowledge base docs
+│   └── vector_store/         # Local ChromaDB SQLite & Binaries (Git-ignored)
+├── doc/                      # Architecture presentations and schematics
+│   └── architecture_presentation.pdf
+├── src/                      # Production logic
+│   ├── database/
+│   │   └── check_db.py       # Vector store health checks
+│   └── llm_pipeline/
+│       └── core_engine.py    # Dual-LLM routing and Groq API orchestration
+├── ui/
+│   └── app.py                # Streamlit chat interface
+├── .env                      # API keys and secrets (Git-ignored)
+├── .gitignore
+├── requirements.txt
+└── README.md
